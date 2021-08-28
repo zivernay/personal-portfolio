@@ -7,7 +7,7 @@
         <script src="https://kit.fontawesome.com/19cb355e68.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header id="header">
             <nav id="navbar">
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -103,7 +103,27 @@
 
 
         <section id="contact">
-            
+            <h4>Contact Me</h4>
+            <!--using html to send email data becausse it is currently the easier option to implement
+            and to improve securuty a server language like php would be needed which for this static practice site
+            is not neccessary-->
+            <form action="mailto:ziviedoma7@gmail.com" method="POST" enctype="multipart/form-data"
+                name="EmailForm">
+                <fieldset>
+                    <legend>Email me</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="I am _">
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" name="subject" id="subject" placeholder="I am getting in touch about _">
+                    <textarea name="desc" id="" cols="30" rows="10"></textarea>
+                    <button type="submit">Send <span><i class="fas fa-envelope"></i></span><i class="fas fa-external-link-alt"></i></button>
+                </fieldset>
+            </form>
+            <article id="social-links">
+                <span class="social-link"><a href="linkedin.com/in/zivanai-d-6613a8135"><i class="fab fa-linkedin"></i></a></span>
+                <span class="social-link"><a href="https://github.com/zivernay"><i class="fab fa-github-square"></i></a></span>
+                <span class="social-link"><a href="https://twitter.com/DomaArnold"><i class="fab fa-twitter-square"></i></a></span>
+            </article>
         </section>
     </body>
 </html>
