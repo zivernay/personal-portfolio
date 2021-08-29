@@ -25,3 +25,16 @@ small{
 img{
     max-width: 100%;
 }
+a{
+    text-decoration: none;
+}
+
+/*layout*/
+#header, #welcome-section, #about, #projects, #contact, footer{
+    max-width: 720px;
+    margin: auto;
+}
+
+@media screen and (min-width: 720px) {
+    
+}
