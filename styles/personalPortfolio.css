@@ -34,7 +34,9 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: gray;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 /*layout*/
@@ -61,6 +63,10 @@ a:hover{
 
     }
 }
+/*Fix section headers being covered by fixed header*/
+#about, #projects{
+    padding-top: 40px;
+}
 
 /*modules*/
 .nav-link{
@@ -83,4 +89,17 @@ a:hover{
 }
 .colored-text{
     color: red;
+}
+.local-link{
+    color: gray;
+}
+.section-heading{
+    margin-left: 2em;
+}
+.description{
+    margin: 1em;
+    padding: 1em;
+    text-align: justify;
+    border: 1px solid gray;
+    border-radius: 1em;
 }
