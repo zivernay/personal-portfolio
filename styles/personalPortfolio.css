@@ -30,11 +30,17 @@ a{
 }
 
 /*layout*/
-#header, #welcome-section, #about, #projects, #contact, footer{
+#about, #contact{
     max-width: 720px;
     margin: auto;
 }
 
 @media screen and (min-width: 720px) {
-    
+    #grid-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-template-rows: auto;
+        gap: 1em;
+
+    }
 }
