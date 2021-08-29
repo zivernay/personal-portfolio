@@ -10,6 +10,11 @@ body, header, section, footer{
     font-family: Roboto, sans-serif;
     font-size: 1em;
 }
+header{
+    width: 100%;
+    background-color: rgba(4, 58, 128, 0.507);
+    z-index: 5;
+}
 small, h1, h4{
     font-family: Cinzel, sans-serif;
 }
@@ -30,11 +35,20 @@ a{
 }
 
 /*layout*/
+#header{
+    position: fixed;
+    top: 0;
+}
+#welcome-section{
+    color: white;
+    background-color: black;
+    min-height: 110vh;
+    clip-path: polygon(100% 0, 100% 90%, 30% 100%, 0 90%, 0 0);
+}
 #about, #contact{
     max-width: 720px;
     margin: auto;
 }
-
 @media screen and (min-width: 720px) {
     #grid-container{
         display: grid;
@@ -44,3 +58,5 @@ a{
 
     }
 }
+
+/*modules*/
