@@ -38,6 +38,14 @@ a:hover{
     color: black;
     text-decoration: underline;
 }
+h4{
+    border-bottom: 2px solid gray
+}
+dd, li{
+    font-variant: small-caps;
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.1) 5%,
+    white 90%, white 100%)
+}
 
 /*layout*/
 #header{
@@ -93,7 +101,7 @@ a:hover{
 .local-link{
     color: gray;
 }
-.section-heading{
+.section-heading, .list{
     margin-left: 2em;
 }
 .description{
@@ -102,4 +110,8 @@ a:hover{
     text-align: justify;
     border: 1px solid gray;
     border-radius: 1em;
+}
+.list-header{
+    font-family: Cinzel, sans-serif;
+    font-weight: 400;
 }
