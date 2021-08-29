@@ -40,7 +40,6 @@ a:hover{
 /*layout*/
 #header{
     position: fixed;
-    height: 2em;
     top: 0;
 }
 #welcome-section{
@@ -64,21 +63,22 @@ a:hover{
 }
 
 /*modules*/
-.nav-links{
-    padding: 0;
-}
 .nav-link{
-    padding: 0.5em 1em;
+    height: 30px;
+    line-height: 30px;
+    padding: 0.25em 1em;
     color: white;
 }
-.center{
+.h-center{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    
 }
 .v-center{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .r-align{
     text-align: right;
