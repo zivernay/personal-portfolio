@@ -1,0 +1,24 @@
+/*Base */
+body, header, section, div, nav, article{
+    display: block;
+    box-sizing: border-box;
+}
+body, header, section, footer{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+}
+small, h1, h4{
+    font-family: Cinzel, sans-serif;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+}
+small{
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

@@ -6,13 +6,14 @@
         <meta charset="utf-8">
         <script src="https://kit.fontawesome.com/19cb355e68.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles/personalPortfolio.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel&family=Roboto&effect=outline | neon">
     </head>
     <body>
         <!--Fixed header with page local page links to different sections-->
         <header id="header">
             <nav id="navbar">
                 <ul>
-                    <li><a href="#about" class="local-link">About</a></li>
+                    <li><a href="#about" class="local-link font-effect-outline">About</a></li>
                     <li><a href="#projects" class="local-link">Projects</a></li>
                     <li><a href="#contact" class="local-link">Contact</a></li>
                 </ul>
@@ -23,11 +24,11 @@
         <section id="welcome-section">
             <h1>Doma Zivanai Arnold<span>.</span></h1>
             <p><small>aspiring</small> developer <sub><i class="fas fa-code"></i></sub></p>
-            <p>
+            <div class="skills">
                 <small>html</small>
                 <small>css</small>
                 <small>javascript</small>
-            </p>
+            </div>
         </section>
 
         <!--About sectio which contain personal description and personal skills as a profile photo-->
@@ -43,13 +44,13 @@
                 I am open to working on any projects that may provide a learning exprience and 
                 you can get in <a href="#social-links" class="local-link">touch <span><i class="fas fa-paper-plane"></i></span></a> 
             </p>
-            <dl id="skills-list"><i class="fas fa-terminal"></i> Skills:
+            <dl id="skills-list"> <h4><i class="fas fa-terminal"></i> Skills:</h4>
                 <dd><span><i class="fab fa-html5"></i></span> Html5</dd>
                 <dd><span><i class="fab fa-css3"></i></span> Css</dd>
                 <dd><span><i class="fab fa-js"></i></span> Javascript</dd>
                 <dd><span><i class="fab fa-python"></i></span> Python</dd>
             </dl>
-            <dl id="certificates"><i class="fas fa-certificate"></i> certificates:
+            <dl id="certificates"> <h4><i class="fas fa-certificate"></i> Certificates:</h4>
                 <dd><a href="https://www.freecodecamp.org/zivanai" id="profile-link" target="_blank">
                         <span><i class="fab fa-free-code-camp"></i></span> Responsive Web Design
                     </a>
@@ -59,7 +60,7 @@
             <figure>
                 <figcaption>believer <span class="colored-text">|</span> developer <span class="colored-text">|</span> student </figcaption>
                 <div class="round-img">
-                    <img src="" alt="picture of Doma Zivanai" title="Doma Zivanai">
+                    <img src="images/doma.png" alt="picture of Doma Zivanai" title="Doma Zivanai">
                 </div>
             </figure>
         </section>
@@ -90,7 +91,7 @@
                         <hr>tools:html; css
                     </p>
                     <div class="project-img">
-                        <img src="#" alt="picture of project: technical documentation page">
+                        <img src="images/documentation.png" alt="picture of project: technical documentation page">
                     </div>
                     <h4>Technical documentation page 
                         <a href="https://zivernay.github.io/fcc-technical-documentation-page/" class="project-link" target="_blank">
