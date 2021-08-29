@@ -71,14 +71,11 @@ a:hover{
 }
 .h-center{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
     
 }
-.v-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.v-align{
+    align-items: center;
 }
 .r-align{
     text-align: right;
