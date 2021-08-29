@@ -12,38 +12,42 @@ body, header, section, footer{
 }
 header{
     width: 100%;
-    background-color: rgba(4, 58, 128, 0.507);
+    background-color: rgb(0, 0, 0);
     z-index: 5;
+    border-bottom: 2px solid rgb(100, 100, 100);
 }
 small, h1, h4{
     font-family: Cinzel, sans-serif;
-}
-ul{
-    display: inline-block;
-    list-style-type: none;
 }
 small{
     font-size: 0.6em;
     letter-spacing: 2px;
     font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 img{
     max-width: 100%;
 }
 a{
+    display: inline-block;
     text-decoration: none;
+}
+a:hover{
+    background-color: gray;
 }
 
 /*layout*/
 #header{
     position: fixed;
+    height: 2em;
     top: 0;
 }
 #welcome-section{
     color: white;
     background-color: black;
     min-height: 110vh;
-    clip-path: polygon(100% 0, 100% 90%, 30% 100%, 0 90%, 0 0);
+    clip-path: polygon(100% 0, 100% 95%, 30% 100%, 0 95%, 0 0);
 }
 #about, #contact{
     max-width: 720px;
@@ -60,3 +64,26 @@ a{
 }
 
 /*modules*/
+.nav-links{
+    padding: 0;
+}
+.nav-link{
+    padding: 0.5em 1em;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-center{
+    display: flex;
+    flex-direction: column;
+}
+.r-align{
+    text-align: right;
+    padding-right: 1em;
+}
+.colored-text{
+    color: red;
+}
