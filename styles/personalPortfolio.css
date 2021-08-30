@@ -66,7 +66,27 @@ article{
     height: 100%;
     position: relative;/*for project title positioning*/
 }
-
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input{
+    background-color: rgba(128, 128, 128, 0.479);
+    height: 1.5em;
+    width: 100%;
+}
+textarea{
+    background-color: rgba(128, 128, 128, 0.479);
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+button{
+    font-size: 1.2em;
+    display: block;
+    margin: 0 auto;
+}
 /*layout*/
 #header{
     position: fixed;
@@ -162,7 +182,8 @@ article{
     height: 100%;
     border-radius: 1em;
     padding-bottom: 2em;
-    background-color: rgba(128, 128, 128, 0.7);
-    font-size: x-large;
+    background-color: rgba(128, 128, 128, 0.75);
+    font-size: 1.5em;
     color: white;
 }
+
