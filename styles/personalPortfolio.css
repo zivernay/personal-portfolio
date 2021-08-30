@@ -87,6 +87,9 @@ button{
     display: block;
     margin: 0 auto;
 }
+footer{
+    background-color: slategray;
+}
 /*layout*/
 #header{
     position: fixed;
@@ -189,4 +192,8 @@ button{
     background-color: rgba(128, 128, 128, 0.75);
     font-size: 1.5em;
     color: white;
+}
+.copyrights{
+    background-color: rgb(80, 79, 79);
+    text-align: center;
 }
