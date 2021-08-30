@@ -12,11 +12,11 @@
         <!--Fixed header with page local page links to different sections-->
         <header id="header">
             <nav id="navbar">
-                <div class="nav-links r-align">
-                    <a href="#about" class="local-link nav-link">About</a>
-                    <a href="#projects" class="local-link nav-link">Projects</a>
-                    <a href="#contact" class="local-link nav-link">Contact</a>
-                </div>
+                <div class="nav-links r-align"><!--comments to remove inlineblock spacing
+                    --><a href="#about" class="">About</a><!--
+                    --><a href="#projects" class="local-link nav-link">Projects</a><!--
+                    --><a href="#contact" class="local-link nav-link">Contact</a><!--
+                --></div>
             </nav>
         </header>
 
@@ -26,7 +26,7 @@
                 <h1>Doma Zivanai Arnold <span class="colored-text">.</span></h1>
                 <div class="r-align">
                     <p><small>aspiring</small>Developer <i class="fas fa-code"></i></p>
-                    <div class="h-center">
+                    <div>
                         <small>html</small>
                         <small>css</small>
                         <small>javascript</small>
@@ -38,7 +38,7 @@
 
         <!--About sectio which contain personal description and personal skills as a profile photo-->
         <section id="about">
-            <h4 class="font-effect-outline section-heading">About</h4>
+            <h3 class="font-effect-outline section-heading">About</h3>
             <p class="description">
                 I am Doma Zivanai Arnold, a developer in the making.
                 I am passionate about designing code that is clear and functional and
@@ -70,7 +70,7 @@
 
         <!--Projects section with project tiles showing project images and a short overlay description of the projects and languages used-->
         <section id="projects">
-            <h4>Projects</h4>
+            <h3  class="font-effect-outline section-heading">Projects</h3>
             <div id="grid-container">
                 <section class="project-tile">
                     <article>
@@ -78,13 +78,13 @@
                             <div class="description v-center">
                                 <p>Recreating Google homepage as a static webpage.</p>
                                 <hr>
-                                <p> html; css</p>
+                                <p>tools: html; css</p>
                             </div>
                         </div>
                         <div class="project-img">
                             <img src="images/googlePage.png" alt="picture of project: google homepage clone">
                         </div>
-                        <h4 class="project-title h-center">Google homepage clone 
+                        <h4 class="project-title h-center">Google homepage clone  
                             <a href="https://zivernay.github.io/re-google/" class="project-link" target="_blank">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
@@ -98,7 +98,7 @@
                             <div class="description v-center">
                                 <p>A template of a technical documentation site with dummy text</p>
                                 <hr>
-                                <p>tools:html; css</p>
+                                <p>tools: html; css</p>
                             </div>
                         </div>
                         <div class="project-img">
@@ -115,10 +115,12 @@
                 <section class="project-tile">
                     <article>
                         <div class="overlay">
+                            <div class="overlay-content">
                             <div class="description v-center">
                                 <p>Rock paper scissors console game</p>
                                 <hr>
-                                <p>tools:html; javascript</p>
+                                <p>tools: html; javascript</p>
+                            </div>
                             </div>
                         </div>
                     <div class="project-img">
@@ -136,7 +138,7 @@
 
 
         <section id="contact">
-            <h4>Contact Me</h4>
+            <h3  class="font-effect-outline section-heading">Contact Me</h3>
             <!--using html to send email data becausse it is currently the easier option to implement
             and to improve securuty a server language like php would be needed which for this static practice site
             is not neccessary-->
@@ -153,17 +155,17 @@
                     <button type="submit">Send <span><i class="fas fa-paper-plane"></i></span></button>
                 </fieldset>
             </form>
-            <article id="social-links">
+            <div id="social-links">
                 <span class="social-link"><a href="linkedin.com/in/zivanai-d-6613a8135" target="_blank"><i class="fab fa-linkedin"></i></a></span>
                 <span class="social-link"><a href="https://github.com/zivernay" target="_blank"><i class="fab fa-github-square"></i></a></span>
                 <span class="social-link"><a href="https://twitter.com/DomaArnold" target="_blank"><i class="fab fa-twitter-square"></i></a></span>
-            </article>
+            </div>
         </section>
 
 
         <footer id="footer">
             <div>
-                <a href="#header" class="local-link"><i class="fas fa-chevron-up"></i> Return to top</a>
+                <a href="#welcome-section" class="local-link"><i class="fas fa-chevron-up"></i> Return to top</a>
             </div>
             <p class="copyrights"> &#169; All Rights Reserved</p>
         </footer>
