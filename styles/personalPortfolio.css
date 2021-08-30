@@ -58,6 +58,7 @@ figcaption{
     margin: 1em auto;
 }
 article{
+    background-color: rgba(29, 53, 87, 0.05);
     min-height: 400px;
     height: 100%;
     position: relative;/*for project title positioning*/
@@ -68,9 +69,10 @@ label{
     margin-bottom: 5px;
 }
 input{
+    display: block;
     background-color: rgba(29, 53, 87, 0.1);
     height: 1.5em;
-    width: 100%;
+    width: 98%;
 }
 textarea{
     background-color: rgba(29, 53, 87, 0.1);
@@ -81,7 +83,7 @@ textarea{
 button{
     font-size: 1.2em;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     
 }
 footer{
