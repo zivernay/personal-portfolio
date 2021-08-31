@@ -119,6 +119,9 @@ span {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         grid-template-areas:
             "pic lists"
             "text text";
@@ -129,9 +132,13 @@ span {
     .about-text{
         grid-area: text;
     }
+    .about-text p{
+        text-align: justify;
+    }
     .about-lists{
         height: 100%;
         grid-area: lists;
+        border-left: 1px solid rgba(241, 250, 238, 0.2);
     }
 }
 @media screen and (min-width: 800px) {
@@ -140,15 +147,16 @@ span {
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
         grid-template-rows: auto;
         gap: 1em;
-        justify-content: stretch;
+        align-content: start;
     }
     .about-cont{
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "pic text lists" ". . .";
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: "pic lists" "pic text";
     }
-    .about-text{
+    .about-text, .about-lists{
         min-width: 300px;
+        border-left: 1px solid rgba(241, 250, 238, 0.2);
     }
 }
 /*Fix section headers being covered by fixed header*/
@@ -196,18 +204,19 @@ span {
 .local-link{
     color: rgb(69, 123, 157);
 }
-.section-heading, .list{
-    margin-left: 2em;
+.about-cont{
+    background-color: rgb(29, 53, 87);
 }
 .description{
     margin: 1em;
     padding: 1em;
     text-align: justify;
-    border: 1px solid rgb(29, 53, 87);
+    border: 1px solid rgb(241, 250, 238);
     border-radius: 1em;
 }
-.about-lists{
-    background-color: rgb(29, 53, 87);
+.about-lists, .about-text{
+    margin-left: 1em;
+    padding: 1em;
     color: white;
 }
 .list-header{
