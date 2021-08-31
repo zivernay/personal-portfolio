@@ -22,10 +22,10 @@ h1{
     font-size: 5vw;
 }
 small{
+    background-color: black;
     font-size: 0.6em;
     letter-spacing: 2px;
     font-weight: 500;
-    padding-right: 1em;
     padding-left: 1em;
 }
 img{
@@ -158,7 +158,7 @@ span {
 }
 .r-align{
     text-align: right;
-    padding-right: 1em;
+    padding-right: 5em;
 }
 .colored-text{
     color: rgb(230, 57, 70)
