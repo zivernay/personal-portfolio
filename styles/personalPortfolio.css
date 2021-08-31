@@ -271,3 +271,12 @@ span {
     background-color: rgba(29, 53, 87, 0.7);
     text-align: center;
 }
+.social-link > .twitter{
+    color: #1da1f2;
+}
+.social-link > .linkedin{
+    color: #006fab;
+}
+.social-link > .github{
+    color: black;
+}
