@@ -13,7 +13,7 @@
         <header id="header">
             <nav id="navbar">
                 <div class="nav-links r-align"><!--comments to remove inlineblock spacing
-                    --><a href="#about" class="">About</a><!--
+                    --><a href="#about" class="local-link nav-link">About</a><!--
                     --><a href="#projects" class="local-link nav-link">Projects</a><!--
                     --><a href="#contact" class="local-link nav-link">Contact</a><!--
                 --></div>
@@ -40,32 +40,40 @@
         <section id="about">
             <h3 class="section-heading">About</h3>
             <!--Centered profile picture with a caption-->
-            <figure class="profile-picture">
-                <figcaption>believer <span class="colored-text">|</span> developer <span class="colored-text">|</span> student </figcaption>
-                <img class="round-img" src="images/doma.png" alt="picture of Doma Zivanai" title="Doma Zivanai">
-            </figure>
-            <p class="description">
-                I am Doma Zivanai Arnold, a developer in the making.
-                I am passionate about designing code that is clear and functional and
-                I am always happy when I see a finished project online and running.
-                Currently I am proficient in the specified below <a href="#skills-list"
-                class="local-link">skills</a> and continue to learn more as specified in 
-                the on my social platforms and <a href="#github-link" class="local-link">github</a>.
-                I am open to working on any projects that may provide a learning exprience and 
-                you can get in <a href="#social-links" class="local-link">touch <span><i class="fas fa-paper-plane"></i></span></a>. 
-            </p>
-            <dl id="skills-list" class="list"> <i class="fas fa-terminal"></i> <span class="list-header"> Skills<span class="colored-text">:</span></span>
-                <dd><span><i class="fab fa-html5"></i></span> Html5</dd>
-                <dd><span><i class="fab fa-css3"></i></span> Css</dd>
-                <dd><span><i class="fab fa-js"></i></span> Javascript</dd>
-                <dd><span><i class="fab fa-python"></i></span> Python</dd>
-            </dl>
-            <dl id="certificates" class="list"><i class="fas fa-certificate"></i> <span class="list-header"> Certificates<span class="colored-text">:</span></span>
-                <dd><a href="https://www.freecodecamp.org/zivanai" id="profile-link" target="_blank">
-                        <span><i class="fab fa-free-code-camp"></i></span> Responsive Web Design
-                    </a>
-                </dd>
-            </dl>
+            <div class="about-cont">
+                <div class="flex-cont">
+                    <figure class="profile-picture">
+                        <figcaption>believer <span class="colored-text">|</span> developer <span class="colored-text">|</span> student </figcaption>
+                        <img class="round-img" src="images/doma.png" alt="picture of Doma Zivanai" title="Doma Zivanai">
+                    </figure>
+                </div>
+                <div class="about-text">
+                    <p class="description">
+                        I am Doma Zivanai Arnold, a developer in the making.
+                        I am passionate about designing code that is clear and functional and
+                        I am always happy when I see a finished project online and running.
+                        Currently I am proficient in the specified below <a href="#skills-list"
+                        class="local-link">skills</a> and continue to learn more as specified in 
+                        the on my social platforms and <a href="#github-link" class="local-link">github</a>.
+                        I am open to working on any projects that may provide a learning exprience and 
+                        you can get in <a href="#social-links" class="local-link">touch <span><i class="fas fa-paper-plane"></i></span></a>. 
+                    </p>
+                </div>
+                <div class="about-lists">
+                    <dl id="skills-list" class="list"> <i class="fas fa-terminal"></i> <span class="list-header"> Skills<span class="colored-text">:</span></span>
+                        <dd><span><i class="fab fa-html5"></i></span> Html5</dd>
+                        <dd><span><i class="fab fa-css3"></i></span> Css</dd>
+                        <dd><span><i class="fab fa-js"></i></span> Javascript</dd>
+                        <dd><span><i class="fab fa-python"></i></span> Python</dd>
+                    </dl>
+                    <dl id="certificates" class="list"><i class="fas fa-certificate"></i> <span class="list-header"> Certificates<span class="colored-text">:</span></span>
+                        <dd><a href="https://www.freecodecamp.org/zivanai" id="profile-link" target="_blank">
+                                <span><i class="fab fa-free-code-camp"></i></span> Responsive Web Design
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
         </section>
 
         <!--Projects section with project tiles showing project images and a short overlay description of the projects and languages used-->
