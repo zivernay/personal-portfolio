@@ -28,6 +28,9 @@ small{
     font-weight: 500;
     padding-left: 1em;
 }
+h3{
+    text-decoration: underline;
+}
 img{
     max-width: 100%;
 }
